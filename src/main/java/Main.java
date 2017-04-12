@@ -4,8 +4,12 @@ public class Main {
     public static void main(String[] args) {
         FirebaseImpl fb = new FirebaseImpl();
 
-        fb.addCustomer();
-        fb.addOrder();
+        //fb.addOrder();
+        //fb.addCustomer();
+        //fb.addPartner();
+
+        fb.acceptOrder("-KgxbZ0tJOsGTFyXuj3S", "hajeje");
+        while(true);
 
     }
 }
